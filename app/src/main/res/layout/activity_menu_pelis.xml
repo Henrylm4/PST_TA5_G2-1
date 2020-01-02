@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPelis">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/infonombre"
+        android:layout_width="154dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="414dp"
+        android:layout_height="79dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="414dp"
+        android:layout_height="633dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="                                       Peliculas del MCU" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/spidermanffh"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="Spidermanffh"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/spidermanfarfromhome" />
+
+                    <ImageButton
+                        android:id="@+id/avengerEG"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="AvengersEG"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/avengersendgame" />
+
+                    <ImageButton
+                        android:id="@+id/capMarvel"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="CapMarvel"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/capitanamarvel51691489" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/antwasp"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="AntWasp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/antmanwasp" />
+
+                    <ImageButton
+                        android:id="@+id/avengerIW"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="AvengersIW"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/vengadoresinfinitywaroster1551691493" />
+
+                    <ImageButton
+                        android:id="@+id/blackp"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="BlackPanther"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/blackpanther" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/thorR"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="ThorRagnarok"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/thorragnarok" />
+
+                    <ImageButton
+                        android:id="@+id/spidermanHC"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="SpidermanHC"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/spidermanhomecoming" />
+
+                    <ImageButton
+                        android:id="@+id/avengerAU"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="AvengersAU"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/vengadoreslaeradeultro525787731" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageButton
+                        android:id="@+id/GG2"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="GuardianesGalaxiaV2"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/gg2" />
+
+                    <ImageButton
+                        android:id="@+id/drstrange"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="DrStrange"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/drstrange" />
+
+                    <ImageButton
+                        android:id="@+id/civilWar"
+                        android:layout_width="122dp"
+                        android:layout_height="160dp"
+                        android:onClick="CivilWar"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@mipmap/civilwar" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
