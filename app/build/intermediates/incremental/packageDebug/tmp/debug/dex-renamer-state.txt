@@ -1,0 +1,4 @@
+#Thu Jan 02 07:41:04 COT 2020
+base.0=C\:\\Users\\JARV13\\Desktop\\AMST2\\AMST2\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
